@@ -6,9 +6,11 @@ import {
   Text,
   TextInput,
   TouchableOpacity,
+  KeyboardAvoidingView ,
+ToastAndroid
 } from "react-native";
 import firebase from 'firebase'
-import db from "../config"
+import db from "../config.js"
 export default class WriteStoryScreen extends React.Component {
   constructor(){
     super();
